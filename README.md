@@ -1,7 +1,9 @@
 # How to install docker
 OS requirement : Ubuntu Kinetic 22.10, Ubuntu Jammy 22.04 (LTS), Ubuntu Focal 20.04 (LTS), Ubuntu Bionic 18.04 (LTS)
 
-Using following command, uninstall old docker version (if any) sudo apt-get remove docker docker-engine docker.io containerd runc
+Using following command, uninstall old docker version (if any) 
+
+sudo apt-get remove docker docker-engine docker.io containerd runc
 
 Set up the repository, using following commands in sequence, sudo apt-get update sudo apt-get install ca-certificates curl gnupg lsb-release
 
